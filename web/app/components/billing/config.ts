@@ -80,19 +80,20 @@ export const ALL_PLANS: Record<Plan, PlanInfo> = {
 }
 
 export const defaultPlan = {
-  type: Plan.sandbox,
+  type: Plan.enterprise,
   usage: {
-    vectorSpace: 1,
-    buildApps: 1,
-    teamMembers: 1,
-    annotatedResponse: 1,
-    documentsUploadQuota: 1,
+    vectorSpace: NUM_INFINITE,
+    buildApps: NUM_INFINITE,
+    teamMembers: NUM_INFINITE,
+    annotatedResponse: NUM_INFINITE,
+    documentsUploadQuota: NUM_INFINITE,
   },
   total: {
-    vectorSpace: 10,
-    buildApps: 10,
-    teamMembers: 1,
-    annotatedResponse: 10,
-    documentsUploadQuota: 50,
+    vectorSpace: NUM_INFINITE,
+    buildApps: NUM_INFINITE,
+    teamMembers: NUM_INFINITE,
+    annotatedResponse: NUM_INFINITE,
+    documentsUploadQuota: NUM_INFINITE,
   },
 }
+
